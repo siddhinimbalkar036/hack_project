@@ -16,7 +16,7 @@
 
 
 ## Project Abstract
-This project is blockchain-powered crowdfunding platform built on the Polygon Mumbai Testnet. 
+This project is blockchain-powered crowdfunding platform built on the Polygon Amoy Testnet. 
 It allows user to create fundraising campaigns, donate using MATIC, and earn NFT rewards based on their contribution level.
 
 key features:
@@ -30,13 +30,13 @@ key features:
 
 ## Tech Stack
 * **Blockchain & Smart Contract**: Solidity, Hardhat, OpenZeppelin(ERC721).
-* **Network**: Polygon Mumbai Testnet
+* **Network**: Polygon Amoy Testnet
 * **Backend**:  Node.js,  MongoDB, Ethers.js, Express.js
 * **Frontend**:  React.js, TailwindCSS, Web3.js/Ethers.js
 * **Wallet Integration**: MetaMask, WalletConnnect
 * **Deployment**: Hardhat, Render, Vercel(Next.js), MongoDB Atlas
  ## Dataset Used
 * Campaign and donation data are stored in the backend database like MongoDB.
-* Blockchain Events are fetched directly from the Polygon Mumbai Smart Contract
+* Blockchain Events are fetched directly from the Polygon Amoy Smart Contract
 
 

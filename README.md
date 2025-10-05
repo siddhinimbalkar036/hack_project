@@ -39,7 +39,7 @@ key features:
  ## Dataset Used
 * Campaign and donation data are stored in the backend database like MongoDB.
 * Blockchain Events are fetched directly from the Polygon Amoy Smart Contract
-* 
+
 
 
 

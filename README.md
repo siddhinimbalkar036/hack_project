@@ -1,7 +1,7 @@
 ﻿# Decentralized CrowdFunding DApp
 
 ## Team Name: 
- * Blockchain Crafters
+ * Blockchain Craftershttps://github.com/siddhinimbalkar036/hack_project/edit/main/README.md
 ## Team members Name: 
 * Sakshi Chavan
 * Siddhi Nimbalkar
@@ -41,21 +41,7 @@ key features:
 * Blockchain Events are fetched directly from the Polygon Amoy Smart Contract
 * 
 
-## Quick Start
-# Install dependencies
-npm install          # for hardhat root
-cd backend && npm install
-cd ../frontend && npm install
-# Compile contracts
-npx hardhat compile
-# Deploy to Amoy
-npx hardhat run scripts/deploy.js --network mumbai
-# Start backend server
-cd ../backend
-node server.js
-# Start frontend
-cd ../frontend
-npm start
+
 
 
 

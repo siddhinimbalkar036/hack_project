@@ -35,8 +35,27 @@ key features:
 * **Frontend**:  React.js, TailwindCSS, Web3.js/Ethers.js
 * **Wallet Integration**: MetaMask, WalletConnnect
 * **Deployment**: Hardhat, Render, Vercel(Next.js), MongoDB Atlas
+* 
  ## Dataset Used
 * Campaign and donation data are stored in the backend database like MongoDB.
 * Blockchain Events are fetched directly from the Polygon Amoy Smart Contract
+* 
+
+## Quick Start
+# Install dependencies
+npm install          # for hardhat root
+cd backend && npm install
+cd ../frontend && npm install
+# Compile contracts
+npx hardhat compile
+# Deploy to Amoy
+npx hardhat run scripts/deploy.js --network mumbai
+# Start backend server
+cd ../backend
+node server.js
+# Start frontend
+cd ../frontend
+npm start
+
 
 
